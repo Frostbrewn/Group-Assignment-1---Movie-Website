@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title>Movie website</title>
+</head>
+<body>
+	<header>
+		<section>
+			<div class="logo">
+				<a href="index.html">Frostbrewn movies</a>
+			</div>
+			<div class="nav">
+				<a href="home.html">home</a>
+				<a href="home.html">genres</a>
+				<a href="http://localhost/Movie_Seat_Reservation_System/">bookings</a>
+				<a href="home.html">featured</a>
+				<a href="http://localhost/Movie_Seat_Reservation_System/index.php?page=movies">movies</a>
+				<a href="home.html">tv series</a>
+				<a href="https://www.imdb.com/chart/boxoffice/?ref_=nv_ch_cht">top IMDB</a>
+				<a href="home.html">a-z list</a>
+				<a href="register.php">register</a>
+			</div>
+		</section>
+		<div class="searchItem">
+			<div class="search">
+				<input type="text" placeholder="type to search">
+				<i class="fas fa-search"></i>
+			</div>
+			<button class="btn"><a href="login.php">login</a></button>
+		</div>
+	</header>
+	
+	<div class="sliderItem">
+		<div class="slider">
+			
+			<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+			  <div class="carousel-indicators">
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+			  </div>
+			  <div class="carousel-inner">
+				<div class="carousel-item active">
+				  <img src="mandalorian.jpeg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+				  <img src="falcon and winter soldier.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+				  <img src="loki.jpg" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+				  <img src="Avengers-Infinity-War.jpg" class="d-block w-100" alt="...">
+				</div>
+			  </div>
+			  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			  </button>
+			  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			  </button>
+			</div>
+		</div>
+		
+		<div class="coming">
+			<h2 class="comingSoonTitle">coming soon</h2>
+			<div class="mit">
+				<div class="scrollItem">
+					<div class="thumbItem">
+						<img src="Coming Soon/blackWidow.jpg" alt="">
+						<div class="thumbTitle">
+							<p class="MovieNameThumb"><a href="">Black Widow</a></p>
+							<div class="thumbMovieDetails">
+								<p>genres: <a href="">action</a>, <a href="">adventure</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="scrollItem">
+					<div class="thumbItem">
+						<img src="Coming Soon/avengersEndgame.jpg" alt="">
+						<div class="thumbTitle">
+							<p class="MovieNameThumb"><a href="">Avengers Endgame</a></p>
+							<div class="thumbMovieDetails">
+								<p>genres: <a href="">action</a>, <a href="">adventure</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="scrollItem">
+					<div class="thumbItem">
+						<img src="Coming Soon/bloodshot.jpg" alt="">
+						<div class="thumbTitle">
+							<p class="MovieNameThumb"><a href="">Bloodshot</a></p>
+							<div class="thumbMovieDetails">
+								<p>genres: <a href="">action</a>, <a href="">adventure</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="scrollItem">
+					<div class="thumbItem">
+						<img src="Coming Soon/theSpongebobMovie.jpg" alt="">
+						<div class="thumbTitle">
+							<p class="MovieNameThumb"><a href="">The Spongebob Movie</a></p>
+							<div class="thumbMovieDetails">
+								<p>genres: <a href="">action</a>, <a href="">adventure</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="scrollItem">
+					<div class="thumbItem">
+						<img src="Coming Soon/howToTrainYourDragon.jpg" alt="">
+						<div class="thumbTitle">
+							<p class="MovieNameThumb"><a href="">How to Train Your Dragon 3</a></p>
+							<div class="thumbMovieDetails">
+								<p>genres: <a href="">action</a>, <a href="">adventure</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+		<div class="SuggestionContainer">
+			<div class="suggestionList">
+				<span class="suggest">suggestion<i class="fas fa-greater-than"></i></span>
+				<span class="featured">featured movies</span>
+				<a href="">top today</a>
+				<a href="">trending</a>
+			</div>
+		</div>
+		
+		<div class="movieContainer">
+			<div class="movieList">
+				<div class="movieItem">
+					<a href="https://www.imdb.com/title/tt1985949/"><img src="Movie Posters\Angry Birds Movie.jpg" alt=""></a>
+					<h4>Angry Birds Movie</h4>
+				</div>
+				
+				<div class="movieItem">
+					<a href="https://www.imdb.com/title/tt5095030/?ref_=fn_al_tt_1"><img src="Movie Posters\Antman 2.jpg" alt=""></a>
+					<h4>Antman and the Wasp</h4>
+				</div>
+				
+				<div class="movieItem">
+					<a href="https://www.imdb.com/title/tt2395427/?ref_=fn_al_tt_1"><img src="Movie Posters\Avengers Age of Ultron.jpg" alt=""></a>
+					<h4>Avengers Age of Ultron</h4>
+				</div>
+				
+				<div class="movieItem">
+					<a href="https://www.imdb.com/title/tt4154756/?ref_=fn_al_tt_1"><img src="Movie Posters\Avengers Infinity War.jpg" alt=""></a>
+					<h4>Avengers Infinity War</h4>
+				</div>
+				
+				<div class="movieItem">
+					<a href="https://www.imdb.com/title/tt1469304/?ref_=fn_al_tt_2"><img src="Movie Posters\Baywatch.jpg" alt=""></a>
+					<h4>Baywatch</h4>
+				</div>
+				
+				<div class="movieItem">
+					<a href="https://www.imdb.com/title/tt3498820/?ref_=fn_al_tt_1"><img src="Movie Posters\Captain America Civil War.jpg" alt=""></a>
+					<h4>Captain America Civil War</h4>
+				</div>
+				
+				<div class="movieItem">
+					<a href="https://www.imdb.com/title/tt1843866/?ref_=fn_al_tt_1"><img src="Movie Posters\Captain America Winter Soldier.jpg" alt=""></a>
+					<h4>The Winter Soldier</h4>
+				</div>
+				
+				<div class="movieItem">
+					<a href="https://www.imdb.com/title/tt4154664/?ref_=fn_al_tt_1"><img src="Movie Posters\Captain Marvel.jpg" alt=""></a>
+					<h4>Captain Marvel</h4>
+				</div>
+				
+				<div class="movieItem">
+					<a href="https://www.imdb.com/title/tt1477834/?ref_=fn_al_tt_1"><img src="Movie Posters\DC Aquaman.jpg" alt=""></a>
+					<h4>DC Aquaman</h4>
+				</div>
+				
+				<div class="movieItem">
+					<a href="https://www.imdb.com/title/tt2975590/?ref_=fn_al_tt_1"><img src="Movie Posters\DC Batman vs Superman.jpg" alt=""></a>
+					<h4>DC Batman vs Superman</h4>
+				</div>
+				
+				<div class="movieItem">
+					<a href="https://www.imdb.com/title/tt0451279/?ref_=fn_al_tt_1"><img src="Movie Posters\DC Wonder Woman.jpg" alt=""></a>
+					<h4>DC Wonder Woman</h4>
+				</div>
+				
+				<div class="movieItem">
+					<a href="https://www.imdb.com/title/tt4520988/?ref_=fn_al_tt_1"><img src="Movie Posters\Disney Frozen 2.jpg" alt=""></a>
+					<h4>Disney Frozen 2</h4>
+				</div>
+				
+				<div class="movieItem">
+					<a href="https://www.imdb.com/title/tt3521164/?ref_=fn_al_tt_1"><img src="Movie Posters\Disney Moana.jpg" alt=""></a>
+					<h4>Disney Moana</h4>
+				</div>
+				
+				<div class="movieItem">
+					<a href="https://www.imdb.com/title/tt4566758/?ref_=fn_al_tt_1"><img src="Movie Posters\Disney Mulan.jpg" alt=""></a>
+					<h4>Disney Mulan</h4>
+				</div>
+				
+				<div class="movieItem">
+					<a href="https://www.imdb.com/title/tt6264654/?ref_=fn_al_tt_1"><img src="Movie Posters\Free Guy.jpg" alt=""></a>
+					<h4>Free Guy</h4>
+				</div>
+				
+				<div class="movieItem">
+					<a href="https://www.imdb.com/title/tt5034838/?ref_=fn_al_tt_1"><img src="Movie Posters\Godzilla vs Kong.jpg" alt=""></a>
+					<h4>Godzilla vs Kong</h4>
+				</div>
+				
+				<div class="movieItem">
+					<a href="https://www.imdb.com/title/tt1300854/?ref_=fn_al_tt_1"><img src="Movie Posters\Iron Man 3.jpg" alt=""></a>
+					<h4>Iron Man 3</h4>
+				</div>
+				
+				<div class="movieItem">
+					<a href="https://www.imdb.com/title/tt1663662/?ref_=fn_al_tt_1"><img src="Movie Posters\Pacific Rim.jpg" alt=""></a>
+					<h4>Pacific Rim</h4>
+				</div>
+				
+				<div class="movieItem">
+					<a href="https://www.imdb.com/title/tt6182908/?ref_=fn_al_tt_1"><img src="Movie Posters\Smallfoot.jpg" alt=""></a>
+					<h4>Smallfoot</h4>
+				</div>
+				
+				<div class="movieItem">
+					<a href="https://www.imdb.com/title/tt3794354/?ref_=fn_al_tt_1"><img src="Movie Posters\Sonic the Hedgehog.jpg" alt=""></a>
+					<h4>Sonic the Hedgehog</h4>
+				</div>
+				
+				<div class="movieItem">
+					<a href="https://www.imdb.com/title/tt2250912/?ref_=fn_al_tt_1"><img src="Movie Posters\Spiderman Homecoming.jpg" alt=""></a>
+					<h4>Spiderman Homecoming</h4>
+				</div>
+				
+				<div class="movieItem">
+					<a href="https://www.imdb.com/title/tt4116284/?ref_=fn_al_tt_2"><img src="Movie Posters\The Lego Batman Movie.jpg" alt=""></a>
+					<h4>The Lego Batman Movie</h4>
+				</div>
+				
+				<div class="movieItem">
+					<a href="https://www.imdb.com/title/tt1490017/?ref_=fn_al_tt_1"><img src="Movie Posters\The Lego Movie.jpg" alt=""></a>
+					<h4>The Lego Movie</h4>
+				</div>
+				
+				<div class="movieItem">
+					<a href="https://www.imdb.com/title/tt2709768/?ref_=fn_al_tt_1"><img src="Movie Posters\The Secret Life of Pets.jpg" alt=""></a>
+					<h4>The Secret Life of Pets</h4>
+				</div>
+				
+				
+			</div>
+		</div>
+		
+		<div class="SuggestionContainer">
+			<div class="suggestionList">
+				<span class="suggest">suggestion<i class="fas fa-greater-than"></i></span>
+				<span class="featured">all</span>
+				<a href="">action</a>
+				<a href="">adventure</a>
+				<a href="">comedy</a>
+			</div>
+		</div>
+		
+		<footer class="footer">
+			<div class="footer-wave-box">
+				<div class="footer-wave footer-animation">
+					
+				</div>
+			</div>
+			<div class="footerLinkItem">
+				<div class="footerLinks">
+					<div class="links">
+						<p>Frostbrewn movies</p>
+						<a href="home.html">Frostbrewn movies</a>
+						<a href="">contact</a>
+						<a href="">sitemap</a>
+						<a href="">RSS</a>
+						<a href="">DMCA</a>
+					</div>
+					<div class="links">
+						<p>genres</p>
+						<a href="home.html">action</a>
+						<a href="">adventure</a>
+						<a href="">crime</a>
+						<a href="">romance</a>
+						<a href="">comedy</a>
+					</div>
+					<div class="links">
+						<p>country</p>
+						<a href="home.html">united states</a>
+						<a href="">great britain</a>
+						<a href="">china</a>
+						<a href="">korea</a>
+						<a href="">india</a>
+					</div>
+				</div>
+					
+				
+			<div class="subscribe">
+				<h5>subscribe</h5>
+				<p class="sbsP">subscribe to the website mailing list to receive updates
+				on movies
+				</p>
+				<input class="emailInput" type="text" placeholder="enter your email">
+				<button class="subscribeBtn">subscribe</button>
+			</div>
+				
+				
+				<div class="copyright">
+					<h2>Frostbrewn Movies</h2>
+					<p>Copyright © FrostbrewnMovies.to. All rights reserved.</p>
+					<p class="disclaimer">Disclaimer: frostbrewnmovies.to is a site that does not store any files on its server. All contents are provided by non-affiliated third parties.</p>
+				</div>
+				
+			</div>
+		</footer>
+</body>
+</html>
+
+
+
+
